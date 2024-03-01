@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+  font-size: 16px;
+  width: 100%;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    
+}
+.contenedor{
+  position: relative;
+  top: 150px;
+}
+
+
+.container-user {
+    display: flex;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 15px;
+
+}
+
+.information p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.information a{
+    margin: 5px;
+}
+.user {
+
+    margin-left: 60px;
+    background-color: #ECA400;
+    color: white;
+    border-radius: 50%;
+    width: 200px;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+
+a .carta svg{
+    margin: auto;
+}
+
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+   padding: 10px;
+   margin: 10px;
+
+}
+
+.carta:hover {
+
+    background-color: #3077EA;
+}
+
+.carta img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.carta svg {
+
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.boton a {
+
+    text-decoration: none;
+    background-color: #ECA400;
+    color: white;
+    border-radius: 10px;
+    width: 20px;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+}
+
+.boton {
+
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.favoritos{
+    color: black !important;
+    text-align: center;
+}
+
+.primer-bloque{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    gap: 4rem;
+    
+}
+
+.primer-bloque a{
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px;
+    color: white
+}
+
+.estrella{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ECA400;
+}
+
+
+.carta{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.carta1:hover {
+
+    background-color:#ECA400 ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carta img{
+    width: 100%;
+    border-bottom: 5px solid black;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.titulos {
+    width: 90%;
+    font-size: 15px;
+    margin: auto auto 5px auto;
+}
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton a{ 
+    display: flex;
+    background-color: #3077EA;
+    border-radius: 5px;
+    width: 50% !important;
+    align-items: center;
+    justify-content: center;
+}

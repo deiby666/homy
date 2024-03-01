@@ -1,0 +1,186 @@
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+
+.header{
+    background-color: #3077EA;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: center;
+}
+
+
+
+
+/* css para el mapa
+overflow: hidden;
+insert: 0px;
+position; fixed; */
+
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 11.9rem;
+}
+
+.boton-buscar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.buscar{
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+.primer-bloque{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.primer-bloque a{
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px;
+    color: white
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 2px solid black;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.carta1:hover {
+
+    background-color:#ECA400 ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carta img{
+    width: 100%;
+    height: 180px;
+    border-bottom: 5px solid black;
+    border-radius: 20px;
+}
+
+
+.titulos{
+    text-align: start;
+    font-size: 4rem;
+    width: 90%;
+    font-size: 15px;
+    
+}
+
+.cartas a{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton a{ 
+
+    background-color: #3077EA;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+
+h2{
+
+    display: flex;
+    justify-content: center;
+    background-color: #3077EA;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+h3 {
+
+    font-size: 20px;
+}
+
+.carta1 a {
+
+    text-decoration: none;
+    background-color: #3077EA ;
+    color: white;
+    margin-left: 40px;
+}
+
+.carta2:hover {
+
+    background-color: #3077EA;
+}
+
+
+
+.boton2 {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+
+
